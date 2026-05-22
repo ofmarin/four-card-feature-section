@@ -15,6 +15,5 @@ export class App {
   protected readonly title = signal('four-card-feature-section');
   cardContent: CardContent = inject(CardContent);
   roles : Rol[] = this.cardContent.getData();
-  content : InputSignal<Rol[]> = input(this.roles);
 
 }
