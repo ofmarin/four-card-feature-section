@@ -1,2 +1,17 @@
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+main{
+  padding: 50px 32px 32px;
+}
+
+h1{
+  color: var(--grey-500);
+  font-family: "Poppins", serif;
+  font-weight: 200;
+}
+h1 span{
+  color: var(--grey-500);
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}

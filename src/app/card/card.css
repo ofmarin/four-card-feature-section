@@ -1,0 +1,26 @@
+#card{
+  border-radius: 8px;
+  border: 2px solid black;
+  /* Each card is supposed to have its own border color.*/
+  border-top-color: var(--cyan);
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+
+
+}
+
+
+.cyan-border{
+  border-top-color: var(--cyan);
+}
+.red-border{
+  border-top-color: var(--red);
+}
+.orange-border{
+  border-top-color: var(--orange);
+}
+.blue-border{
+  border-top-color: var(--blue);
+}
+
+

@@ -1,14 +1,20 @@
-import { Component, Input, input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { Rol } from '../rol';
-import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-card',
-  imports: [NgOptimizedImage],
+  imports: [],
   templateUrl: './card.html',
   styleUrl: './card.css',
 })
 export class Card {
   card = input.required<Rol>();
 
+  borderColor(){
+
+    if(this.card().title === "Supervisor"){
+      return "cyan-border";
+    }
+    return;
+  }
 }

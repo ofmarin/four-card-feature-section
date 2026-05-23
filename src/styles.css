@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root{
+  --red : hsl(0, 78%, 62%);
+  --cyan : hsl(180, 62%, 55%);
+  --orange : hsl(34, 97%, 64%);
+  --blue : hsl(212, 86%, 64%);
+
+
+  --grey-500: hsl(234, 12%, 34%);
+  --grey-400: hsl(212, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
+
+}
+
+@font-face{
+  font-family : "Poppins";
+  src: url("../public/fonts/poppinFont/Poppins-SemiBold.ttf") format(truetype);
+  font-weight: 600 ;
+}
+
+@font-face{
+  font-family : "Poppins";
+  src: url("../public/fonts/poppinFont/Poppins-Regular.ttf") format(truetype);
+  font-weight: 400 ;
+}
+
+@font-face{
+  font-family : "Poppins";
+  src: url("../public/fonts/poppinFont/Poppins-ExtraLight.ttf") format(truetype);
+  font-weight: 200 ;
+}
+
+
