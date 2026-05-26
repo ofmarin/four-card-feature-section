@@ -1,15 +1,33 @@
 #card{
+  padding:20px;
   border-radius: 8px;
-  border: 2px solid black;
-  /* Each card is supposed to have its own border color.*/
-  border-top-color: var(--cyan);
-  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
-    rgba(0,0,0,0.19);
-
-
+  box-shadow: 0 0 10px 0 var(--grey-500);
+  display: grid;
+  border-top-width: 5px;
+  border-top-style: solid;
+  #icon{
+    text-align: end;
+  }
 }
 
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 3rem;
+  h3{
+    font-weight: 600;
+  }
 
+  p{
+    font-weight: 400;
+  }
+}
+#description{
+  color:var(--grey-400);
+}
 .cyan-border{
   border-top-color: var(--cyan);
 }
