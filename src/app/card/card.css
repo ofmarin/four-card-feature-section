@@ -8,6 +8,8 @@
   #icon{
     text-align: end;
   }
+
+
 }
 
 #content{
@@ -40,5 +42,7 @@
 .blue-border{
   border-top-color: var(--blue);
 }
+
+
 
 
