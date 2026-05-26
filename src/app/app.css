@@ -81,7 +81,7 @@ app-card, header{
   }
 
   header{
-    margin-top:200px;
+    margin-top:0px;
     margin-bottom:0;
     max-width: 500px;
   }
