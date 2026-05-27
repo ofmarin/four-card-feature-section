@@ -9,7 +9,7 @@ import { Rol } from './rol';
   selector: 'app-root',
   imports: [RouterOutlet, Card],
   templateUrl: './app.html',
-  styleUrl: './app.css',
+  styleUrls: ['./app.css'],
 })
 export class App {
   protected readonly title = signal('four-card-feature-section');

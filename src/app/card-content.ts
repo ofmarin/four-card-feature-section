@@ -9,22 +9,22 @@ export class CardContent {
     {
       title: 'Supervisor',
       description: 'Monitors activity to identify project roadblocks',
-      icon: '/images/icon-supervisor.svg',
+      icon: 'images/icon-supervisor.svg',
     },
     {
       title: 'Team Builder',
       description: 'Scans our talent network to create the optimal team for your project',
-      icon: '/images/icon-team-builder.svg',
+      icon: 'images/icon-team-builder.svg',
     },
     {
       title: 'Karma',
       description: 'Regularly evaluates our talent to ensure quality',
-      icon: '/images/icon-karma.svg',
+      icon: 'images/icon-karma.svg',
     },
     {
       title: 'Calculator',
       description: 'Uses data from past projects to provide better delivery estimates\n',
-      icon: '/images/icon-calculator.svg',
+      icon: 'images/icon-calculator.svg',
     },
   ];
 

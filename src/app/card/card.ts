@@ -1,16 +1,17 @@
-import { Component, input } from '@angular/core';
+import { Component, computed, input, Signal } from '@angular/core';
 import { Rol } from '../rol';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-card',
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './card.html',
-  styleUrl: './card.css',
+  styleUrls: ['./card.css'],
 })
 export class Card {
   card = input.required<Rol>();
-
-  borderColor() {
+  borderColor = computed(() =>
+  {
     if (this.card().title === 'Supervisor') {
       return 'cyan-border';
     } else if (this.card().title === 'Team Builder') {
@@ -19,5 +20,7 @@ export class Card {
       return 'orange-border';
     }
     return 'blue-border';
-  }
+  });
+
+
 }
